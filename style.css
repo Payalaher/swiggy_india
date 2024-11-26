@@ -1,0 +1,1660 @@
+/* @font-face {
+    font-family: payal;
+    src: url(/Poppins-ExtraBoldItalic.ttf);
+} */
+/* .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  } */
+*{
+
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* font-family: payal; */
+    /* font-family: Poppins-BoldItalic; */
+
+    /* font-family: "Poppins", sans-serif; */
+    /* font-weight: 100; */
+    /* font-style: normal; */
+
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+    /* background-color: lightcoral; */
+    font-family: "Roboto", sans-serif;
+
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(153, 146, 195); */
+
+}
+
+.setup{
+    height: 60vh;
+    width: 100%;
+    background-color:white;
+    box-shadow: rgba(119, 110, 191, 0.35) 0px -300px 36px -28px inset;
+border-bottom-right-radius: 50px;
+border-bottom-left-radius: 50px;
+}
+
+.nav{
+    height: 20%;
+    width: 100%;
+    /* background-color: lawngreen; */
+    display: flex;
+}
+
+.left-nav{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(237, 184, 123); */
+    display: flex;
+    padding-top: 2vw;
+
+
+}
+
+.swiggy-icon{
+    height: 100%;
+    width: 30%;
+    /* background-color: #fff; */
+   background-image: url(swgy.png);
+   background-size: 3rem;
+   background-repeat: no-repeat;
+   display: flex;
+   /* justify-content: center; */
+   margin-left: 150px;
+   /* margin-top: .5vw; */
+   /* padding-top: .9vw; */
+}
+
+.swiggy-icon h1{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-left: 60px;
+    font-size: 2vw;
+    color: rgb(237, 93, 21);
+}
+
+.swiggy-other{
+    height: 100%;
+    width: 70%;
+    /* background-color: rgb(188, 249, 18); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiggy-other i{
+    font-size: 2vw;
+    margin-left: .8vw;
+    color: rgb(237, 93, 21);
+
+}
+
+
+.swiggy-other h1{
+    /* font-size: 2vw; */
+    margin:0 .5vw;
+}
+.swiggy-other p{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 1vw; */
+font-size: 1.4vw;
+}
+
+.right-nav{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(123, 237, 146); */
+    display: flex;
+    margin-right:7vw;
+
+}
+
+.search{
+    height: 100%;
+    width: 80%;
+    /* background-color: lightseagreen; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search button{
+font-size: 1.5vw;
+padding: 1.5vw 4vw;
+border-radius: 20px;
+border: 0 solid rgb(192, 190, 190);
+font-weight: 300;
+background-color: rgb(231, 230, 230);
+color: grey;
+text-align: left;
+
+}
+
+.search button i{
+    padding-left: 5vw;
+    /* padding-right:-5vw ; */
+}
+.search-icon{
+    height: 100%;
+    width: 20%;
+    /* background-color: rgb(216, 97, 147); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.search-icon i{
+    font-size: 2.7vw;
+    color: whitesmoke;
+    border-radius: 80px;
+    border: 1.5px solid black;
+    padding: .5vw .6vw;
+    background-color: rgb(59, 58, 58);
+    /* margin-left: -5vw; */
+}
+
+.rest{
+    height: 80%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    
+}
+
+.left-rest{
+    height: 100%;
+    width: 50%;
+    /* background-color: lightcoral; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-rest h1{
+    font-size: 4vw;
+    /* padding-bottom: -5vw; */
+    color: rgb(46, 45, 45);
+
+}
+.right-rest{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(148, 141, 225); */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.img-right-rest{
+    height: 80%;
+    width: 50%;
+    /* background-color: lightseagreen; */
+background-image: url(/file.png);
+
+    background-size: cover;
+    background-position: center;
+    padding-left: 9vw;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+
+
+}
+
+
+.mind{
+    height: 50vh;
+    width: 100%; 
+    /* background-color: lightblue; */
+    padding: 1.5vw 5vw;
+
+}
+
+.upper-mind{
+    height: 20%;
+    width: 100%;
+    /* background-color: lightgreen; */
+    display: flex;
+
+
+}
+
+.tag-mind{
+    height: 100%;
+    width: 60%;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 3.5vw;
+}
+
+.tag-mind h1{
+    font-size: 2.5vw;
+    font-weight: 700;
+}
+.icon-mind{
+    height: 100%;
+    width: 30%;
+    /* background-color: rgb(171, 240, 128); */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 3.5vw;
+
+    
+
+}
+
+.icon-mind i{
+    font-size: 1.3vw;
+    border-radius: 50px;
+    padding: .8vw;
+    background-color:rgb(212, 210, 210);
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin: .3vw;
+    /* padding-left: 5vw; */
+    
+
+}
+
+.lower-mind{
+    height: 80%;
+    width: 100%;
+    /* background-color: rgb(238, 216, 144); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.food{
+    height: 80%;
+    width: 90%;
+    /* background-color: lawngreen; */
+    display: flex;
+}
+
+.one{
+    height: 100%;
+    width: 20%;
+    /* background-color: aqua; */
+    margin-right: 1.5vw;
+    background-image: url(/Shawarma.jpeg);
+    background-size: 13.5rem;
+    background-position: center;
+}
+
+.two{
+    height: 100%;
+    width: 20%;
+    /* background-color: rgb(43, 255, 0); */
+    margin-right: 1.5vw;
+    background-image: url(/Pizza.jpeg);
+    background-size: 13.5rem;
+    background-position: center;
+
+}
+
+.three{
+    height: 100%;
+    width: 20%;
+    /* background-color: rgb(0, 187, 255); */
+    margin-right: 1.5vw;
+background-image: url(/Burger.jpeg);
+    background-size: 14rem;
+    background-position: center;
+
+}
+
+.four{
+    height: 100%;
+    width: 20%;
+    /* background-color: aqua; */
+    margin-right: 1.5vw;
+background-image: url(/Biryani_2.jpeg);
+    background-size: 14rem;
+    background-position: center;
+
+}
+
+.five{
+    height: 100%;
+    width: 20%;
+    /* background-color: rgb(255, 0, 217); */
+    margin-right: 1.5vw;
+background-image: url(/Momos.jpeg);
+    background-size: 13.5rem;
+    background-position: center;
+
+}
+
+
+.pune{
+    height: 70vh;
+    width: 100%;
+    /* background-color: lightseagreen; */
+}
+
+.upper-pune{
+    height:15%;
+    width: 100%;
+    /* background-color: lightgreen; */
+    display: flex;
+    /* justify-content: flex-end; */
+
+
+}
+
+.tag-pune{
+    height: 100%;
+    width: 60%;
+    /* background-color: lightcoral; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-left: 3.5vw;
+    margin-left: 3vw    ;
+}
+
+.tag-pune h1{
+    font-size: 2.5vw;
+    font-weight: 700;
+}
+.icon-pune{
+    height: 100%;
+    width: 40%;
+    /* background-color: rgb(171, 240, 128); */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 3.5vw;
+
+    
+
+}
+
+.icon-pune i{
+    font-size: 1.3vw;
+    border-radius: 50px;
+    padding: .8vw;
+    background-color:rgb(212, 210, 210);
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin: .3vw;
+    /* padding-left: 5vw; */
+
+    
+
+}
+
+.lower-pune{
+    height: 85%;
+    width: 100%;
+    /* background-color: rgb(144, 186, 238); */
+    padding: 2vw 3vw;
+}
+
+.upper-lower-pune{
+
+    height: 70%;
+    width: 100%;
+    /* background-color: rgb(238, 187, 100); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.one-pune{
+    height:90% ;
+width: 30%;
+/* background-color: yellow; */
+margin-right: 2.5vw;
+background-image: url(/chinese\ work.jpeg);
+background-size: cover;
+background-position: center;
+border-radius: 20px;
+display: flex;
+/* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.one-pune h1{
+display: flex;
+justify-content: flex-start ;
+align-items: flex-end;
+color: white;
+padding-bottom: .5vw;
+font-weight: bold;
+padding-left: .5vw;
+
+}
+
+.two-pune{
+    height:90% ;
+    width: 30%;
+    /* background-color: rgb(60, 0, 255); */
+    margin-right: 2.5vw;
+background-image: url(/pizza\ hut.jpeg);
+background-size: cover;
+background-position: center;
+border-radius: 20px;
+/* box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px ; */
+display: flex;
+box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    }
+
+    .two-pune h1{
+        display: flex;
+        justify-content: flex-start ;
+        align-items: flex-end;
+        color: white;
+        padding-bottom: .5vw;
+        font-weight: bold;
+        padding-left: .5vw;
+        }
+
+    .three-pune{
+        height:90% ;
+        width: 30%;
+        /* background-color: rgb(34, 255, 0); */
+        /* margin-right: 2vw; */
+        background-image: url(/Great\ indian\ khichdi.jpeg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;display: flex;
+        }
+
+        .three-pune h1{
+            display: flex;
+            justify-content: flex-start ;
+            align-items: flex-end;
+            color: white;
+            padding-bottom: .5vw;
+            font-weight: bold;
+            padding-left: .5vw;
+            }
+        
+.lower-lower-pune{
+
+    height: 30%;
+    width: 100%;
+    /* background-color: rgb(100, 217, 238); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.one-pune-lower{
+    height:90% ;
+    width: 30%;
+    /* background-color: yellow; */
+    margin-right: 2.5vw;
+
+}
+
+.one-pune-lower h2{
+
+    font-size: 1.6vw;
+    font-weight: 600;
+
+}
+
+.one-pune-lower h3{
+
+    font-size: 1.4vw;
+    font-weight: 600;
+
+
+}
+
+.one-pune-lower i{
+
+font-size: 1vw;
+background-color: green;
+border-radius: 50px;
+padding: .2vw;
+color: white;
+
+}
+
+.one-pune-lower p{
+
+    font-size: 1.5vw;
+    font-weight: 100;
+    color: rgb(126, 125, 125);
+}
+
+
+.two-pune-lower{
+    height:90% ;
+    width: 30%;
+    /* background-color: rgb(60, 0, 255); */
+    margin-right: 2.5vw;
+
+}
+
+.two-pune-lower h2{
+
+    font-size: 1.6vw;
+    font-weight: 600;
+
+}
+
+.two-pune-lower h3{
+
+    font-size: 1.4vw;
+    font-weight: 600;
+
+
+}
+
+.two-pune-lower i{
+
+font-size: 1vw;
+background-color: green;
+border-radius: 50px;
+padding: .2vw;
+color: white;
+
+}
+
+hr{
+    margin: 0 5vw;
+}
+.two-pune-lower p{
+
+    font-size: 1.5vw;
+    font-weight: 100;
+    color: rgb(126, 125, 125);
+}
+
+.three-pune-lower{
+    height:90% ;
+    width: 30%;
+    /* background-color: rgb(34, 255, 0); */
+    /* margin-right: 2.5vw; */
+
+}
+
+.three-pune-lower h2{
+
+    font-size: 1.6vw;
+    font-weight: 600;
+
+}
+
+.three-pune-lower h3{
+
+    font-size: 1.4vw;
+    font-weight: 600;
+
+
+}
+
+.three-pune-lower i{
+
+font-size: 1vw;
+background-color: green;
+border-radius: 50px;
+padding: .2vw;
+color: white;
+
+}
+
+.three-pune-lower p{
+
+    font-size: 1.5vw;
+    font-weight: 100;
+    color: rgb(126, 125, 125);
+}
+
+.foods{
+height: 80vh;
+width: 100%;
+
+/* background-color: lightcoral; */
+/* padding: 4.5vw; */
+}
+
+.upper-food{
+    height: 20vh;
+    width: 100%;
+/* background-color: rgb(128, 240, 130); */
+padding: 0 5vw;
+display: flex;
+/* align-items: flex-end; */
+flex-direction: column;
+justify-content: flex-end;
+}
+
+.upper-upper-food{
+    height: 40%;
+    width: 100%;
+/* background-color: rgb(128, 180, 240); */
+
+display: flex;
+align-items: center;
+
+}
+
+.upper-upper-food h1{
+    font-size: 2vw;
+    font-weight: 700;
+    
+}
+
+.lower-upper-food{
+height: 40%;
+width: 100%;
+/* background-color: lawngreen; */
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+}
+
+.lower-upper-food button{
+font-size: 1.3vw;
+padding: .7vw .7vw;
+border-radius: 50px;
+border: 1.5px solid rgb(145, 145, 145);
+/* color: white; */
+background-color: white;
+
+}
+
+.lower-upper-food button i{
+
+    font-size: 1.4vw;
+
+
+}
+
+.lower-food{
+
+    height: 90vh;
+    width: 100%;
+    /* background-color: lightsalmon; */
+    /* padding: 0 5vw; */
+    /* padding: 1vw 0; */
+
+
+}
+
+.first-lower-food{
+
+    height: 50%;
+    width: 100%;
+    /* background-color: rgb(173, 255, 122); */
+padding: 1vw 1.5vw;
+display: flex;
+justify-content: space-evenly;
+
+}
+
+.two-lower-food{
+
+    height: 50%;
+    width: 100%;
+    /* background-color: rgb(135, 122, 255); */
+    padding: 0vw 1.5vw;
+    display: flex;
+justify-content: space-evenly;
+
+}
+
+.three-lower-food{
+    
+
+    height: 50%;
+    width: 100%;
+    /* background-color: rgb(135, 122, 255); */
+    padding: 0vw 1.5vw;
+    display: flex;
+justify-content: space-evenly;
+    
+    
+}
+.mins{
+height: 100%;
+width: 22%;
+/* background-color: rgb(128, 240, 232); */
+display: flex;
+/* justify-content: center; */
+align-items: center;
+flex-direction: column;
+
+}
+
+
+.minsa{
+    height: 100%;
+    width: 22%;
+    background-color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    
+    }          
+        
+    
+.upper-mins{
+height: 50%;
+width: 98%;
+background-color: rgb(39, 32, 178);
+display: flex;
+
+
+}
+
+.onemins{
+    height: 50%;
+    width: 90%;
+    /* background-color: lightsalmon; */
+    background-image: url(/pizza\ hut.jpeg);
+    background-size: cover;
+    background-position: center;
+    /* font-size: larger; */
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+
+.twomins{
+    height: 50%;
+    width: 90%;
+    /* background-color: lightsalmon; */
+    background-image: url(/chinese\ work.jpeg);
+    background-size: cover;
+    background-position: center;
+    /* font-size: larger; */
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+.threemins{
+    height: 50%;
+    width: 90%;
+    /* background-color: lightsalmon; */
+    background-image: url(/Ganesh.jpeg);
+    background-size: cover;
+    background-position: center;
+    /* font-size: larger; */
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.fourmins{
+    height: 50%;
+    width: 90%;
+    /* background-color: lightsalmon; */
+    background-image: url(/barbeque\ NAtion.jpeg);
+    background-size: cover;
+    background-position: center;
+    /* font-size: larger; */
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+
+.tonemins{
+    height: 50%;
+    width: 90%;
+    /* background-color: lightsalmon; */
+    background-image: url(/chinese\ work.jpeg);
+    background-size: cover;
+    background-position: center;
+    /* font-size: larger; */
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.ttwomins{
+    height: 50%;
+    width: 90%;
+    /* background-color: lightsalmon; */
+    background-image: url(/dimios\ pizza.jpeg);
+    background-size: cover;
+    background-position: center;
+    /* font-size: larger; */
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.tthreemins{
+    height: 50%;
+    width: 90%;
+    /* background-color: lightsalmon; */
+    background-image: url(/big\ bowl.jpeg);
+    background-size: cover;
+    background-position: center;
+    /* font-size: larger; */
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.tfourmins{
+    height: 50%;
+    width: 90%;
+    /* background-color: lightsalmon; */
+    background-image: url(/Great\ indian\ khichdi.jpeg);
+    background-size: cover;
+    background-position: center;
+    /* font-size: larger; */
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.honemins{
+    height: 50%;
+    width: 90%;
+    /* background-color: lightsalmon; */
+    background-image: url(/Great\ indian\ khichdi.jpeg);
+    background-size: cover;
+    background-position: center;
+    /* font-size: larger; */
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; /* padding-left: 9vw; */
+}
+
+.honemins{
+    height: 50%;
+    width: 90%;
+    /* background-color: lightsalmon; */
+    background-image: url(/KFC.jpeg);
+    background-size: cover;
+    background-position: center;
+    /* font-size: larger; */
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+.htwomins{
+    
+        height: 50%;
+        width: 90%;
+        /* background-color: lightsalmon; */
+        background-image: url(/burgwe\ king.jpeg);
+        background-size: cover;
+        background-position: center;
+        /* font-size: larger; */
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;    
+    
+}
+
+.upper-mins h1{
+display: flex;
+align-items: flex-end;
+/* font-weight: 900; */
+color: white;
+
+}
+
+
+.lower-mins{
+
+    height: 50%;
+width: 98%;
+/* background-color: rgb(178, 32, 122); */
+padding: 1vw;
+}
+
+.lower-mins h2{
+font-size: 1.6vw;
+font-weight: 600;
+
+}
+
+.lower-mins h3{
+    font-size:1.4vw;
+    padding-bottom: .5vw;
+}
+
+.lower-mins i{
+    font-size: 1vw;
+    color: white;
+    background-color: green;
+    padding: .1vw;
+    border-radius: 50px;
+}
+
+.lower-mins p{
+font-size: 1.4vw;
+
+}
+
+.show{
+    height: 10vh;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2.5vw;
+
+}
+
+.show button{
+    padding: 1.2vw 7vw;
+font-size: 1.2vw;  
+font-weight: 600; 
+border-radius: 10px;
+background-color: white;
+border: 1px solid rgb(186, 186, 186);
+}
+.show button i{
+    font-size: 1.5vw;
+}
+
+.culture{
+    height: 45vh;
+    width: 100%;
+    /* background-color: lawngreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5vw 5vw;
+
+}
+
+.food-culture{
+    height: 20%;
+    width: 90%;
+    /* background-color: rgb(224, 213, 16); */
+
+
+}
+
+.food-culture h1{
+
+font-size: 2.5vw;
+
+}
+
+
+
+.order{
+
+    height: 80%;
+    width: 90%;
+    background-color: white;
+    padding-top: 1vw;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+
+}
+
+.order h1{
+font-size: 2.5vw;
+font-weight: 500;
+color: rgb(84, 83, 83);
+padding: 1.5vw;
+}
+
+.order p{
+    font-size: 1.2vw;
+    padding-left: 1vw;
+    padding-bottom: 1.5vw;
+    color: grey;
+}
+
+.order button{
+font-size: 1.3vw;
+padding-left: 1vw;
+color: rgb(241, 102, 51);
+font-weight: 600;
+background-color: transparent;
+border: 1px solid white;
+
+}
+
+.order i{
+
+    font-size: 1.3vw;
+
+
+}
+
+
+.localities{
+
+height: 50vh;
+width: 100%;
+/* background-color: lightgreen; */
+/* padding: 0 4.5vw; */
+
+}
+
+.upper-localities{
+
+height: 30%;
+width: 100%;
+/* background-color: aqua; */
+padding: 0 5vw;
+display: flex;
+align-items: flex-end;
+
+
+}
+
+.upper-localities h1{
+
+    font-size: 2.3vw;
+    padding-bottom: .9vw;
+}
+
+.lower-localities{
+
+    height: 70%;
+    width: 100%;
+    /* background-color: rgb(255, 0, 157); */
+    /* padding: 1.5vw; */
+    
+    /* padding-bottom:1.3vw ; */
+
+
+}
+
+.first-lower-localities{
+
+    height: 30%;
+    width: 100%;
+    /* background-color: rgb(255, 230, 0); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom:1.3vw ;
+
+
+}
+
+.first-lower-localities button{
+
+    font-size: 1.2vw;
+    padding: 1.3vw 0vw;
+    border-radius: 20px;
+    width: 20%;
+/* color: white; */
+background-color: white;
+border: 2px solid rgb(188, 188, 188);
+box-shadow: rgba(214, 214, 214, 0.2) 0px 2px 8px 0px;
+
+
+}
+
+.people{
+
+    height: 50vh;
+    width: 100%;
+    /* background-color: lightgreen; */
+    /* padding: 0 4.5vw; */
+    
+    }
+    
+    .upper-people{
+    
+    height: 30%;
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 0 5vw;
+    display: flex;
+    align-items: flex-end;
+    
+    
+    }
+    
+    .upper-people h1{
+    
+        font-size: 2.3vw;
+        padding-bottom: .9vw;  
+    
+    }
+.lower-people{
+
+    height: 70%;
+    width: 100%;
+    /* background-color: rgb(255, 0, 157); */
+    /* padding: 1.5vw; */
+    
+    /* padding-bottom:1.3vw ; */
+
+
+}
+
+.first-lower-people{
+
+    height: 30%;
+    width: 100%;
+    /* background-color: rgb(255, 230, 0); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom:1.3vw ;
+
+
+}
+
+.first-lower-people button{
+
+    font-size: 1.2vw;
+    padding: 1.3vw 0vw;
+    border-radius: 20px;
+    width: 20%;
+/* color: white; */
+background-color: white;
+/* border: 2px solid gray; */
+border: 2px solid rgb(188, 188, 188);
+box-shadow: rgba(214, 214, 214, 0.2) 0px 2px 8px 0px;
+}
+
+
+
+.chains{
+
+    height: 50vh;
+    width: 100%;
+    /* background-color: lightgreen; */
+    /* padding: 0 4.5vw; */
+    
+    }
+    
+    .upper-chains{
+    
+    height: 30%;
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 0 5vw;
+    display: flex;
+    align-items: flex-end;
+    
+    
+    }
+    
+    .upper-chains h1{
+    
+        font-size: 2.3vw;
+        padding-bottom: .9vw;  
+    }
+.lower-chains{
+
+    height: 70%;
+    width: 100%;
+    /* background-color: rgb(255, 0, 157); */
+    /* padding: 1.5vw; */
+    
+    /* padding-bottom:1.3vw ; */
+
+
+}
+
+.first-lower-chains{
+
+    height: 30%;
+    width: 100%;
+    /* background-color: rgb(255, 230, 0); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom:1.3vw ;
+
+
+}
+
+.first-lower-chains button{
+
+    font-size: 1.2vw;
+    padding: 1.3vw 0vw;
+    border-radius: 20px;
+    width: 20%;
+/* color: white; */
+background-color: white;
+/* border: 2px solid gray; */
+border: 2px solid rgb(188, 188, 188);
+box-shadow: rgba(214, 214, 214, 0.2) 0px 2px 8px 0px;
+}
+
+
+
+
+.Dishes{
+
+    height: 50vh;
+    width: 100%;
+    /* background-color: lightgreen; */
+    /* padding: 0 4.5vw; */
+    
+    }
+    
+    .upper-Dishes{
+    
+    height: 30%;
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 0 5vw;
+    display: flex;
+    align-items: flex-end;
+    
+    
+    }
+    
+    .upper-Dishes h1{
+    
+        font-size: 2.3vw;
+        padding-bottom: .9vw;  
+    }
+.lower-Dishes{
+
+    height: 70%;
+    width: 100%;
+    /* background-color: rgb(255, 0, 157); */
+    /* padding: 1.5vw; */
+    
+    /* padding-bottom:1.3vw ; */
+
+
+}
+
+.first-lower-Dishes{
+
+    height: 30%;
+    width: 100%;
+    /* background-color: rgb(255, 230, 0); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom:1.3vw ;
+
+
+}
+
+.first-lower-Dishes button{
+
+    font-size: 1.2vw;
+    padding: 1.3vw 0vw;
+    border-radius: 20px;
+    width: 20%;
+/* color: white; */
+background-color: white;
+/* border: 2px solid gray; */
+border: 2px solid rgb(188, 188, 188);
+box-shadow: rgba(214, 214, 214, 0.2) 0px 2px 8px 0px;
+}
+
+
+
+
+.Near{
+
+    height: 50vh;
+    width: 100%;
+    /* background-color: lightgreen; */
+    /* padding: 0 4.5vw; */
+    
+    }
+    
+    .upper-Near{
+    
+    height: 30%;
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 0 5vw;
+    display: flex;
+    align-items: flex-end;
+    
+    
+    }
+    
+    .upper-Near h1{
+    
+        font-size: 2.3vw;
+        padding-bottom: .9vw;  
+    }
+.lower-Near{
+
+    height: 70%;
+    width: 100%;
+    /* background-color: rgb(255, 0, 157); */
+    /* padding: 1.5vw; */
+    
+    /* padding-bottom:1.3vw ; */
+
+
+}
+
+.first-lower-Near{
+
+    height: 30%;
+    width: 100%;
+    /* background-color: rgb(255, 230, 0); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom:1.3vw ;
+
+
+}
+
+.first-lower-Near button{
+
+    font-size: 1.2vw;
+    padding: 1.3vw 0vw;
+    border-radius: 20px;
+    width: 20%;
+/* color: white; */
+background-color: white;
+/* border: 2px solid gray; */
+border: 2px solid rgb(188, 188, 188);
+box-shadow: rgba(214, 214, 214, 0.2) 0px 2px 8px 0px;
+}
+
+
+.experience{
+
+height: 35vh;
+width: 100%;
+/* background-color: lightseagreen; */
+
+}
+
+.bundl{
+
+height: 55%;
+width: 100%;
+/* background-color: lightgreen; */
+
+}
+
+.download{
+height: 100%;
+width: 50%;
+/* background-color: lightpink; */
+display: flex;
+align-items: center;
+padding-left: 1.3vw;
+
+}
+
+.download h1{
+
+    /* padding: 1vw; */
+    font-size: 2.5vw;
+    font-weight: 600;
+    color: rgb(57, 57, 57);
+}
+
+
+.better{
+
+    height: 50%;
+    width: 100%;
+    background-color:rgb(214, 209, 209);
+display: flex;
+    padding:0 5vw;
+}
+
+.play{
+    height: 100%;
+    width: 50%;
+    /* background-color:lightcoral; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* padding: 0 1.2vw; */
+}
+
+.get-play{
+    height: 50%;
+    width: 40%;
+    /* background-color:rgb(128, 219, 240); */
+    background-image: url(/play_store.png); 
+    background-position: center;
+    background-size: cover;
+
+}
+
+.app-play{
+    height: 50%;
+    width: 40%;
+    /* background-color:rgb(169, 240, 128); */
+    background-image: url(/app_store.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.technologies{
+    height: 70vh;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    /* opacity: 0.6; */
+    justify-content: center;
+}
+
+.careers{
+    height: 100%;
+    width: 80%;
+    /* background-color:rgb(178, 32, 127); */
+    display: flex;
+    padding: 1.5vw 0;
+
+}
+
+.pvt{
+    height: 50%;
+    width: 25%;
+    /* background-color: lightsalmon; */
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.2vw;
+    /* justify-content: center; */
+align-items: flex-start;
+}
+.swiggyp{
+    height: 30%;
+    width: 100%;
+    /* background-color: lawngreen; */
+    display: flex;
+
+}
+
+.icon{
+    height: 100%;
+    width:30% ;
+    /* background-color: rgb(59, 137, 206); */
+    background-image: url(/Swiggy\ black\ icon.jpeg);
+    background-size: cover;
+    /* background-size: cover; */
+    background-position: center;
+}
+
+.content{
+    height: 100%;
+    width:70% ;
+    /* background-color: rgb(59, 137, 206); */
+    display: flex;
+    align-items: center;
+    /* padding-left: 1vw; */
+    /* justify-content: center; */
+}
+
+.content{
+
+    font-size: 1.1vw;
+    color: white;
+}
+
+.ltd{
+height: 15%;
+}
+.ltd p{
+
+font-size: 1.6vw;
+color: gray;
+
+}
+
+.company{
+    height: 100%;
+    width: 25%;
+    /* background-color: rgb(122, 255, 144); */
+display: flex;
+flex-direction: column;
+padding: 0 1.2vw;
+
+}
+.company h2{
+    font-size: 1.6vw;
+    color: white;
+    padding: 1vw 0;
+
+}
+
+.company a{
+color: rgb(145, 143, 143);
+    font-size: 1.4vw;
+    padding: .5vw;
+    text-decoration: none;
+    opacity: 0.4;
+
+}
+
+.contact{
+
+    height: 100%;
+    width: 25%;
+    /* background-color: rgb(255, 231, 122);  */
+    
+
+}
+
+
+.contact-us{
+    height: 50%;
+    width: 100%;
+    /* background-color: rgb(255, 122, 251);  */
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.2vw;
+    /* justify-content: center; */
+align-items: flex-start;
+
+}
+
+.contact-us h2{
+    font-size: 1.6vw;
+    color: white;
+    padding: 1vw 0;
+
+}
+
+.contact-us a{
+color: gray;
+    font-size: 1.4vw;
+    padding: .5vw;
+    text-decoration: none;
+    opacity: 0.4;
+
+
+}
+
+.legal{
+    height: 50%;
+    width: 100%;
+    /* background-color: rgb(51, 192, 161);  */
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.2vw;
+
+
+}
+
+.legal h2{
+    font-size: 1.6vw;
+    color: white;
+    padding: 1vw 0;
+
+}
+
+.legal a{
+color: gray;
+    font-size: 1.4vw;
+    padding: .5vw;
+    text-decoration: none;
+    opacity: 0.4;
+
+
+}
+
+
+.deliver{
+    height: 100%;
+    width: 25%;
+    /* background-color: rgb(122, 255, 144); */
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.2vw;
+
+}
+
+
+.deliver h2{
+    font-size: 1.6vw;
+    color: white;
+    padding: 1vw 0;
+
+}
+
+.deliver a{
+color: gray;
+    font-size: 1.4vw;
+    padding: .5vw;
+    text-decoration: none;    opacity: 0.4;
+
+    opacity: 0.4;
+
+
+}
+
+.deliver button{
+    font-size: 1vw;
+    width: 50%;
+    padding: .2vw .5vw;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: transparent;
+    color: rgb(157, 157, 157);
+}
+
+.deliver button i{
+
+    padding-left: 1vw;
+}
